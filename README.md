@@ -131,3 +131,8 @@ should be figuring out non-authorized individuals.)
 ## **Contact**
 - **G.Gyaneshwar Rao**
 - Email: [ggyaneshwarrao1@gmail.com](mailto:ggyaneshwarrao1@gmail.com)
+  
+**Other Teammates:**
+  
+- Yaseer Mulla: [yaseermulla604@gmail.com]
+- Sanjana Madiwalar: [sanjanashiv04@gmail.com]
