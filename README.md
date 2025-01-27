@@ -1,5 +1,4 @@
 # **Multimodal-Fusion-for-Person-Identification**
-
 ## **Overview**
 This project explores biometric person identification using **multimodal fusion techniques**, combining **facial features** and **fingerprints** to enhance identification accuracy. Leveraging **deep learning** with the **VGG16 architecture**, the system achieves robust and reliable results for security-sensitive applications.
 
@@ -64,22 +63,34 @@ The methodology starts by collecting and organizing face and fingerprint images 
 ### Sample Results:
 - **Authorized User Prediction**: Correctly identified individuals.
 - **Non-Authorized User Prediction**: Successfully flagged invalid cases.
-## **Authorized User**
+## **4.1 Authorized User**
 Utilizing the trained version, the second combined photo from the dataset was used for prediction. The model appropriately predicted the label, facilitating the retrieval and display of related face and fingerprint images. The diagnosed face and fingerprint snapshots associated with the predicted label are illustrated in Figures 1 and 2, respectively.
 
-**Fig. 4**. Identified Face and Fingerprint Image
+
 
 ### **4.2 Random Authorized User**
 The model's performance was further evaluated using numerous testing techniques to examine its effectiveness and generalization capability. A set of 100 random test images was selected from the mixed test dataset. The model's accuracy on these random check images was calculated, yielding an accuracy of 100%. This assessment tested the model's ability to generalize and make accurate predictions on diverse and randomly chosen test samples.
 
-**Fig. 5**. Random input Identified Face and Fingerprint Image
+
 
 ### **4.3 Random Non-Authorized User Image**
 Additionally, non-authorized user images were recognized within the combined dataset. A random non-authorized user image was selected for evaluation of the model on non-authorized users. This section did not explicitly perform the evaluation for non-authorized users, but this can be further investigated to assess the model's performance in accurately identifying non-authorized individuals.
 
+(The assessment of the model on non-authorized users was now not explicitly performed inside
+this section but can be further investigated for assessing the version's overall performance as it
+should be figuring out non-authorized individuals.)
+
+
+
+![Results](result.png "VGG16 Diagram")
+
+
+**Fig. 4**. Identified Face and Fingerprint Image.
+
+**Fig. 5**. Random input Identified Face and Fingerprint Image.
+
 **Fig. 6**. Random Non-Authorized User Image.
 
-![Results](vgg.jpg "VGG16 Diagram")
 ---
 
 
@@ -93,6 +104,7 @@ Additionally, non-authorized user images were recognized within the combined dat
 | Palmprint                     | [Han et al., 2021](https://www.mdpi.com/2227-7390/9/22/2976)               | 99.63%           | 
 | **Our Model (Face+Fingerprint)** | *This Work*                                                                | **99.99%**       |
 
+
 ---
 
 ## **Learnings**
@@ -105,7 +117,7 @@ Additionally, non-authorized user images were recognized within the combined dat
 
 
 
----
+
 
 ## **References**
 1. **SOCOFing Dataset**: Dataset for fingerprint images.
