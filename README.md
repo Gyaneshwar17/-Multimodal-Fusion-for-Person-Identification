@@ -120,11 +120,12 @@ should be figuring out non-authorized individuals.)
 
 
 ## **References**
-1. **SOCOFing Dataset**: Dataset for fingerprint images.
+1. **SOCOFing Dataset**: Dataset for fingerprint images. [Access Dataset](https://www.kaggle.com/datasets/ruizgara/socofing)
 2. **Simonyan & Zisserman, 2014**: "Very deep convolutional networks for large-scale image recognition." [View Paper](https://arxiv.org/abs/1409.1556)
 3. **Ali et al., 2016**: "Fingerprint recognition for person identification and verification based on minutiae matching." [View Paper](https://doi.org/10.1109/IACC.2016.332)
 4. **Patil et al., 2014**: "Multimodal biometric identification system: Fusion of Iris and fingerprint." [View Paper](https://www.ijcaonline.org/)
 5. **Han et al., 2021**: "Multimodal Identification Based on Fingerprint and Face Images via a Hetero-Associative Memory Method." [View Paper](https://www.mdpi.com/2227-7390/9/22/2976)
+
 
 ---
 
